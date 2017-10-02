@@ -1,3 +1,134 @@
 .home {
-  color: white;
+  color: blue;
+}
+
+.banner {
+  background-color: rebeccapurple;
+  opacity: .8;
+  padding: 20px 100px 100px 100px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-bar {
+  display: flex;
+  flex-direction:row;
+  color: #ffffff;
+}
+
+.menu-logo {
+  color: #ffffff;
+
+}
+
+.menu-item {
+  margin: 10px;
+  letter-spacing: 1px;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+.banner-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 58px;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 20px 0;
+  padding: 0;
+  font-weight: lighter;
+  font-size: 36px;
+}
+
+button {
+  border-style: none;
+  background-color: white;
+  border-radius: 20px;
+  color: mediumpurple;
+  padding: 15px;
+  margin: 20px;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background-color: mediumpurple;
+  color: #ffffff;
+  transition-duration: .5s;
+}
+
+.info-nobly {
+  color: mediumpurple;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+hr {
+  opacity: .5;
+  margin: 20px 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-text {
+  margin: 50px 100px;
+}
+
+.info-p1 {
+  color: black;
+  font-weight: 800;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+.info-p2 {
+  color: black;
+  font-weight: 200;
+  margin: 20px 0;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.info-p3 {
+  color: mediumpurple;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 30px 0;
+}
+
+.info-p4 {
+  color: gray;
+  line-height: 30px;
+  font-weight: 200;
+}
+
+.info-pic {
+  margin: 50px 50px;
+  height: auto;
+  width: 100%;
 }
